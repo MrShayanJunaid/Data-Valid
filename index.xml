@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE Students-Data[
+    <!ELEMENT Students-Data (Person-Data+)>
+    <!ELEMENT Person-Data (name,course,age,email)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT course (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ATTLIST Person-Data id CDATA "34">
+]>
+
+<Students-Data>
+
+    <Person-Data id = "56">
+        <name>Shayan</name>
+        <course>CPISM</course>
+        <age>19</age>
+        <email>shayanjunaid644@gmail.com</email>
+    </Person-Data>
+
+    <Person-Data>
+        <name>Shayan</name>
+        <course>CPISM</course>
+        <age>19</age>
+        <email>shayanjunaid644@gmail.com</email>
+    </Person-Data>
+
+    <Person-Data>
+        <name>Shayan</name>
+        <course>CPISM</course>
+        <age>19</age>
+        <email>shayanjunaid644@gmail.com</email>
+    </Person-Data>
+
+    <Person-Data>
+        <name>Shayan</name>
+        <course>CPISM</course>
+        <age>19</age>
+        <email>shayanjunaid644@gmail.com</email>
+    </Person-Data>
+
+    <Person-Data>
+        <name>Shayan</name>
+        <course>CPISM</course>
+        <age>19</age>
+        <email>shayanjunaid644@gmail.com</email>
+    </Person-Data>
+</Students-Data>
